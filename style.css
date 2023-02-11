@@ -1,0 +1,66 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA  51%, #1D2B64  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+        .heading{
+            font-size: 30px;
+            width: 100%;
+            margin: 0px;
+            font-family: 'Nabla', cursive;
+        }
+
+        .note{
+            font-size:20px;
+            color:black;
+            font-family: 'Rubik Glitch', cursive;
+        }
+
+        body{
+            background-size: cover;
+        }
+
+        .div_speed{
+            float:left;
+        }
+        .div_speed_img, .div_volume_img{
+            width:200px;
+            border-radius: 100px;
+        }
+
+        #speed, #volume{
+            font-size: 23px;
+            margin: 15px;
+            font-family: cursive;
+        }
+
+        .div_volume{
+            float:right;
+        }
+
+        .play_button{
+            width:130px;
+            font-size:25px;
+        }
+
+        canvas{
+            border:5px solid white;
+            border-radius:20px;
+        }
